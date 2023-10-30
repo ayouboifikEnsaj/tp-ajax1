@@ -38,7 +38,8 @@ la structure du projet et comme suite :
 ![par reference](https://github.com/ayouboifikEnsaj/Tp_JSP/assets/107751911/ca4211a5-4e84-4284-be96-240de62e08aa)
 
 
+- **Graphe Machine par marque**
 
-
+![image](https://github.com/ayouboifikEnsaj/tp-ajax1/assets/107751911/31c0f614-d60e-43c7-a46f-a6c9b7f2d5f2)
 
   
