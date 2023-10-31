@@ -22,24 +22,32 @@ la structure du projet et comme suite :
 ## <u>**Captures d'écrans**</u>
 - **Ajoute d'une machine :**
 
-![image](https://github.com/ayouboifikEnsaj/Tp_JSP/assets/107751911/54018a80-0bf4-42e4-b7dc-7a7f5854c350)
+![machine 1](https://github.com/ayouboifikEnsaj/tp-ajax1/assets/107751911/4663ee9f-5734-4f81-a3b8-839cb7ade134)
+
+![suppression 1](https://github.com/ayouboifikEnsaj/tp-ajax1/assets/107751911/1eba6d7a-0d2e-4fc1-a60b-865162690381)
+
+![machine supprimé](https://github.com/ayouboifikEnsaj/tp-ajax1/assets/107751911/a38d81c6-fbc5-4b4f-a087-4c4ae0c37a31)
 
 
 - **Ajoute d'une marque :**
 
-![image](https://github.com/ayouboifikEnsaj/Tp_JSP/assets/107751911/6e042e34-34da-4471-8920-73a1e883e043)
+![gestion des marques](https://github.com/ayouboifikEnsaj/tp-ajax1/assets/107751911/e001bf61-0c52-4725-ab4e-c4281951239e)
+
 
 - **machine by marque:**
 
+![image](https://github.com/ayouboifikEnsaj/tp-ajax1/assets/107751911/98e74665-f5e6-4f2e-a1c6-548686d647d5)
 
-![par marque](https://github.com/ayouboifikEnsaj/Tp_JSP/assets/107751911/2c4b82e4-8bab-4e89-8529-cb704fe08640)
 
 - **machine by reference:**
-![par reference](https://github.com/ayouboifikEnsaj/Tp_JSP/assets/107751911/ca4211a5-4e84-4284-be96-240de62e08aa)
+![machine par reference](https://github.com/ayouboifikEnsaj/tp-ajax1/assets/107751911/1dd3d0d0-4cbf-4d96-a455-e38dfb031672)
+
 
 
 - **Graphe Machine par marque**
 
-![image](https://github.com/ayouboifikEnsaj/tp-ajax1/assets/107751911/31c0f614-d60e-43c7-a46f-a6c9b7f2d5f2)
+![graphe 1](https://github.com/ayouboifikEnsaj/tp-ajax1/assets/107751911/95268a0d-ecfa-4619-abaa-136de9c1078f)
+
+
 
   
