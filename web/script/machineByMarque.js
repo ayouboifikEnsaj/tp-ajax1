@@ -6,7 +6,6 @@ $(document).ready(function () {
             data: {m:  $(this).val()},//this = élément sélectionné
             type: 'POST',
             success: function (data) {
-                
                 var ligne="";
                 for (var i = 0; i < data.length; i++) {
                     ligne+='<tr>'
@@ -16,11 +15,10 @@ $(document).ready(function () {
                             +'<td>'+data[i].dateAchat+'</td>'
                             +'<td>'+data[i].marque.libelle+'</td>'
                             +'<td><a class="bndelete" href="MachineController?op=delete&id='+data[i].id+'">Supprimer</a></td>'
-                            +'<td><a class="bnupdate" href="MachineController?op=update&id='+data[i].id+'">Modifier</a></td>'
+                            +'<td><a class="bnupdate" href="">Modifier</a></td>'
                         +'</tr>';
                 }
-                
-               $("#body").html(ligne);
+                $("#body").html(ligne);
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 console.log(textStatus);

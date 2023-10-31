@@ -48,17 +48,6 @@ public class MachineController extends HttpServlet {
         }else if(op.equalsIgnoreCase("delete")){
             mms.delete(mms.findById(Integer.parseInt(request.getParameter("id"))));
             response.sendRedirect("machineForm.jsp");
-        }else if(op.equalsIgnoreCase("update")){
-                Machine m = mms.findById(Integer.parseInt(request.getParameter("id")));
-                String reference = request.getParameter("reference");
-                Marque marque = ms.findById(Integer.parseInt(request.getParameter("id")));
-                Double prix =Double.parseDouble(request.getParameter("id"));
-                m.setReference(reference);
-                m.setMarque(marque);
-                m.setPrix(prix);
-                mms.update(m);
-                response.sendRedirect("machineForm.jsp");
-            
         }
     }
 

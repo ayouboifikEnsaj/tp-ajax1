@@ -61,18 +61,6 @@ public class EtudiantController extends HttpServlet {
             es.delete(es.findById(id));
             response.sendRedirect("etudiantForm.jsp");
         } else if (op.equals("update")) {
-                Etudiant e = es.findById(Integer.parseInt(request.getParameter("id")));
-                String nom = request.getParameter("nom");
-                String prenom = request.getParameter("prenom");
-                String ville = request.getParameter("ville");
-                //Date dateNaissance=Date.parse("10-10-10");
-                String sexe = request.getParameter("sexe");
-                e.setNom(nom);
-                e.setPrenom(prenom);
-                e.setVille(ville);
-                e.setSexe(sexe);
-                es.update(e);
-                response.sendRedirect("etudiantForm.jsp");
 
         }
     }

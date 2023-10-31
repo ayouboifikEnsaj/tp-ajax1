@@ -56,7 +56,7 @@
                         </tr>
                     </table>
                 </fieldset>
-                
+            </form>
             <%
                 EtudiantService es = new EtudiantService();
             %>
@@ -68,7 +68,7 @@
                         <tr>
                             <th>Id</th>
                             <th>Nom <br>
-                            
+                                <input id="f" type="text" name="f" value="" /></th>
                             <th>Prenom</th>
                             <th>Ville</th>
                             <th>Date de naissance</th>
@@ -89,14 +89,13 @@
                             <td><%=e.getDateNaissance()%></td>
                             <td><%=e.getSexe()%></td>
                             <td><a class="bndelete" href="EtudiantController?op=delete&id=<%=e.getId()%>">Supprimer</a></td>
-                            <td><a class="bnupdate" href="EtudiantController?id=<%=e.getId()%>&op=update&prenom=<%=e.getNom()%>">Modifier</a></td>
+                            <td><a class="bnupdate" href="">Modifier</a></td>
                         </tr>
                         <%}%>
                     </tbody>
                 </table>
 
             </fieldset>
-            </form>
-                   
+        </form>            
 </body>
 </html>
